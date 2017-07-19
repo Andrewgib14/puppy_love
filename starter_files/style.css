@@ -1,4 +1,4 @@
-/*
+            /*
 font info:
     family - Helvetica, Arial, sans-serif
     line-height - 1.6
@@ -12,28 +12,54 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-}
-
-h2, h3 {
-    color: #1fabe5;
-}
-
-li {
-    font-weight: bold;
-}
-
-p > a {
-    color: #1fabe5;
-}
-
-header {
-    background-color: #ff8523;
-}
-
-body {
-    background-image: url(img/bg.jpg)
-}
+            
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 1.6;
+            }
+            
+            h2, h3 {
+                color: #1fabe5;
+            }
+            
+            li {
+                font-weight: bold;
+            }
+            
+            p > a {
+                color: #1fabe5;
+            }
+            
+            header {
+                background-color: #ff8523;
+                height: 150px;
+            }
+            
+            body {
+                background-image: url(img/bg.jpg);
+                margin-left: 150px;
+                margin-right: 150px;
+            }
+            
+            nav > a {
+                border: 1px solid white;
+                padding: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                font-weight: bold;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                position: relative;
+                top: 20px;
+            }
+            
+            header {
+                padding-left: 20px;
+                padding-top: 20px;
+            }
+            
+            div {
+                background-color: white;
+                margin: 10px 30px 50px 30px;
+            }
