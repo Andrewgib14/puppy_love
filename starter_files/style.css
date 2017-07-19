@@ -63,3 +63,36 @@ colors:
                 background-color: white;
                 margin: 10px 30px 50px 30px;
             }
+            
+            table, td {
+                border-collapse: collapse;
+                border: 1px solid #1fabe5;
+            }
+            
+            table > thead > tr > td {
+                background-color: #1fabe5;
+                color: white;
+                border: 1px solid #046c97;
+                padding: 15px;
+            }
+            
+            tbody > tr > td > img {
+                max-width: 25%;
+                height: auto;
+                width: auto;
+            }
+            
+            .name {
+                background-color: #ff8523;
+                height: 75px;
+                border-radius: 5px;
+                color: white;
+                font-weight: bold;
+                font-size: 25px;
+                text-align: center;
+            }
+            
+            form {
+                background-color: #eee;
+                padding: 1rem;
+            }
