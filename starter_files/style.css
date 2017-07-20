@@ -108,3 +108,17 @@ colors:
                 font-weight: bold;
                 font-size: 20px;
             }
+            
+            textarea {
+                height: 200px;
+                width: 99.5%;
+                border: 1px solid #1fabe5;
+            }
+            
+            .submit_container {
+                height: 100px;
+            }
+            
+            #submit_button {
+                padding: 20px;
+            }
