@@ -1,4 +1,4 @@
-            /*
+            /* 
 font info:
     family - Helvetica, Arial, sans-serif
     line-height - 1.6
@@ -59,9 +59,9 @@ colors:
                 padding-top: 20px;
             }
             
-            div {
+            #page_content {
                 background-color: white;
-                margin: 10px 30px 50px 30px;
+                padding: 10px 30px 50px 30px;
             }
             
             table, td {
@@ -95,4 +95,16 @@ colors:
             form {
                 background-color: #eee;
                 padding: 1rem;
+            }
+            
+            .city_container {
+                background-color: #eee;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 20px;
+            }
+            
+            form:nth-child(3) {
+                font-weight: bold;
+                font-size: 20px;
             }
