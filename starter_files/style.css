@@ -39,6 +39,7 @@ colors:
                 background-image: url(img/bg.jpg);
                 margin-left: 150px;
                 margin-right: 150px;
+                border: 1px solid #ffd24a;
             }
             
             nav > a {
@@ -90,6 +91,7 @@ colors:
                 font-weight: bold;
                 font-size: 25px;
                 text-align: center;
+                padding-top: 20px;
             }
             
             form {
@@ -120,5 +122,22 @@ colors:
             }
             
             #submit_button {
-                padding: 20px;
+                padding: 10px;
+                background-color: #1fabe5;
+                border-radius: 10px;
+                font-size: 16px;
+                color: white;
+                text-transform: uppercase;
+                height: 50px;
+                width: 130px;
+            }
+            
+            input {
+                height: 40px;
+                width: 400px;
+            }
+            
+            section {
+                border-bottom: 5px solid #dddddd;
+                padding: 40px;
             }
