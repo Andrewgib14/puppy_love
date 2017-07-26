@@ -37,14 +37,11 @@ colors:
             
             body {
                 background-image: url(img/bg.jpg);
-                margin-left: 150px;
-                margin-right: 150px;
-                border: 1px solid #ffd24a;
+                margin: 0px;
             }
             
             nav > a {
                 border: 1px solid white;
-                padding: 10px;
                 padding-left: 30px;
                 padding-right: 30px;
                 font-weight: bold;
@@ -97,6 +94,7 @@ colors:
             form {
                 background-color: #eee;
                 padding: 1rem;
+                border-radius: 5px;
             }
             
             .city_container {
@@ -134,10 +132,19 @@ colors:
             
             input {
                 height: 40px;
-                width: 400px;
+                width: 200px;
             }
             
             section {
                 border-bottom: 5px solid #dddddd;
-                padding: 40px;
+                padding-bottom: 40px;
+            }
+            
+            body > div {
+                border: 2px solid #ffd24a;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 50px;
+                max-width: 60rem;
+                border-radius: 5px;
             }
